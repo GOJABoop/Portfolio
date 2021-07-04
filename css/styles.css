@@ -1,16 +1,49 @@
+:root{
+    --white: #FFFFFF;
+    --blue_nav: #2C3F5B;
+}
+
 html{
     font-size: 62.5%;
 }
 body{
     font-size: 16px;/*1rem = 1px*/
+    font-family: 'Roboto', sans-serif;
 }
 
 .title{
     text-align: center;
     font-size: 3rem;
-    color: black;
 }
 
 .title span{
     font-size: 2rem;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav a{
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.main-nav a:hover{
+    /*background-color: #37AF93;*/
+    background-color: #2D8F79 ;
+    color: var(--white);
+}
+
+.nav-container{
+    width: 100rem;
+    margin: 0 auto;
+}
+
+.nav-bg{
+    background-color: var(--blue_nav); 
 }
