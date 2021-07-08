@@ -62,7 +62,7 @@ body{
 }
 
 .container{
-    max-width: 96%;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -111,3 +111,29 @@ body{
         width: auto;
     }
 }
+
+.skillset-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+@media(min-width: 768px){
+    .projects-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .skillset-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
