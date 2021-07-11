@@ -15,7 +15,7 @@ html{
     box-sizing: inherit;
 }
 body{
-    font-size: 16px;/*1rem = 1px*/
+    font-size: 16px;/*1rem = 16px*/
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to top, #D8D8D8 0%, var(--white) 100%);
 }
@@ -98,7 +98,7 @@ body{
 }
 
 .nav-bg{
-    background-color: var(--blue_nav); 
+    background-color: var(--blue_nav);
 }
 
 .hero{
@@ -166,6 +166,40 @@ body{
     }
 }
 
+.card{
+    width: 95%;
+    height: 40rem;
+    border-radius: .8rem;
+    box-shadow: 0 .3rem .3rem rgba(0,0,0,.2);
+    overflow: hidden;
+    margin: 2rem;
+    margin-left: .8rem;
+    text-align: center;
+    transition: all 0.2s;
+}
+.card:hover{
+    transform: translateY(-.2rem);
+    box-shadow: 0 1rem 1.1rem rgba(0,0,0,.5);
+}
+.card img{
+    width: 100%;
+    height: 45%;
+}
+.card h4{
+    font-weight: bold;
+}
+.card p{
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+    font-weight: 30rem;
+}
+.card a{
+    font-weight: 30rem;
+    text-decoration: none;
+    color: var(--orange);
+}
+
+
 .form{
     background-color: var(--gray);
     width: min(70rem, 90%);
@@ -203,8 +237,9 @@ body{
     padding: 1rem;
 }
 
-.form-container-field{
-
+.img-size{
+    width: 10rem;
+    height: 6rem;
 }
 
 .footer{
