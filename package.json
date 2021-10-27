@@ -1,0 +1,23 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GOJABoop/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GOJABoop/Portfolio/issues"
+  },
+  "homepage": "https://github.com/GOJABoop/Portfolio#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.17"
+  }
+}
