@@ -9,15 +9,6 @@ export const App = () => {
       <Navbar/>
       <Hero/>
       <ProjectsSection/>
-      <br />
-      <br />
-      <br />
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-      <br /><br />
-      <br /><br /><br /><br /><br /><br /><br /><br /><br />
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-      <br /><br /><br /><br /><br /><br /><br /><br /><br />
     </>
   )
 }
