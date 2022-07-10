@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const Card = ({ name, description, linkRepo, img }) => {
     return (
         <a href={linkRepo} target="blank" className="flex items-center mx-4 bg-white rounded-lg border shadow-md md:mx-0 md:flex-row md:w-full hover:bg-slate-200 hover:border-slate-400">

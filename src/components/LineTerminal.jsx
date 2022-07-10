@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const LineTerminal = ({ message }) => {
   return (
     <div className="mt-0.5 flex">

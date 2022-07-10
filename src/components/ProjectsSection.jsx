@@ -1,6 +1,4 @@
-import React from 'react'
-import { Card } from './Card'
-import { GridProjects } from './GridProjects'
+import { GridProjects } from './GridProjects';
 
 export const ProjectsSection = () => {
   return (

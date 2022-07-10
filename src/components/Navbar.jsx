@@ -1,11 +1,12 @@
-import React from 'react';
+import { useState } from 'react';
 import logo from '../../assets/logo.svg';
 
 export const Navbar = () => {
 
+    const [toggleMenu, setToggleMenu] = useState(true);
+
     const onClickButton = () => {
-        const menu = document.querySelector('#menuNavbar');
-        menu.classList.toggle('hidden');
+        setToggleMenu(!toggleMenu);
     }
 
     return (
@@ -19,7 +20,8 @@ export const Navbar = () => {
                     <svg className="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
                 </button>
             </div>
-            <div id='menuNavbar' className="w-full block flex-grow lg:flex lg:items-center lg:w-auto text-center lg:text-right hidden">
+
+            <div id='menuNavbar' className={ `w-full block flex-grow lg:flex lg:items-center lg:w-auto text-center lg:text-right ${ toggleMenu ? 'hidden' : '' }`}>
                 <div className="text-base lg:flex-grow">
                     <a onClick={ onClickButton } href="#" className="block mt-4 lg:inline-block lg:mt-0 text-purple-500 hover:text-purple-200 mr-4">
                         About me
