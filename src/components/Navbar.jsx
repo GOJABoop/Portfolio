@@ -11,7 +11,7 @@ export const Navbar = () => {
 
     return (
         <nav className="flex items-center justify-between flex-wrap bg-neutral-900 p-6 sticky top-0 z-50">
-            <div className="flex items-center flex-shrink-0 text-amber-500 mr-6">
+            <div className="flex items-center flex-shrink-0 mr-6">
                 <img src={logo} className="fill-white h-8 w-9 mr-2" alt="logo" />
                 <span className="text-2xl tracking-tight font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-blue-500">GOJAx64</span>
             </div>
