@@ -1,4 +1,4 @@
-import { GridProjects } from './GridProjects';
+import { GridProjects } from '../components';
 
 export const ProjectsSection = () => {
   return (
