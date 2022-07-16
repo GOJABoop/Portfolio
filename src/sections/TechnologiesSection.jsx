@@ -4,7 +4,7 @@ import { mainTechnologies, secondaryTechnologies, tools } from '../data/stackTec
 export const TechnologiesSection = () => {
   //https://tailwindui.com/components/marketing/sections/heroes
   return (
-    <section className='bg-slate-100 mb-5'>
+    <section className='bg-slate-200 pb-5'>
         <div className="py-4 px-4 mx-auto max-w-screen-xl text-center lg:py-10 lg:px-12">
             <h1 className="my-4 text-4xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-500 md:text-5xl lg:text-5xl">Technologies</h1>
             <h1 className="pt-3 mb-1 text-xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-4xl">Main Lenguages and Frameworks</h1>
