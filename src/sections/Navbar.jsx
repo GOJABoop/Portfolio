@@ -25,7 +25,7 @@ export const Navbar = () => {
 
             <div id='menuNavbar' className={ `w-full block flex-grow lg:flex lg:items-center lg:w-auto text-center lg:text-right ${ toggleMenu ? 'hidden' : '' }`}>
                 <div className="text-base lg:flex-grow">
-                    <a onClick={ onClickButton } to="/#about" className="block mt-4 lg:inline-block lg:mt-0 text-purple-500 hover:text-purple-200 mr-4">
+                    <a onClick={ onClickButton } href="/#about" className="block mt-4 lg:inline-block lg:mt-0 text-purple-500 hover:text-purple-200 mr-4">
                         About me
                     </a>
                     <a onClick={ onClickButton } href="/#projects" className="block mt-4 lg:inline-block lg:mt-0 text-slate-100 hover:text-purple-200 mr-4">

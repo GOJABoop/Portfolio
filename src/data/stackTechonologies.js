@@ -1,9 +1,6 @@
 
-export const mainTechnologies = ['javascript', 'java', 'python', 'cpp', 'react', 'laravel', 'mysql', 'postgresql'];
+export const mainTechnologies = ['javascript', 'java', 'python', 'cpp', 'react', 'laravel', 'mysql', 'postgresql', 'html', 'css', 'tailwind'];
 
 export const tools = ['git', 'github', 'jira',  'slack', 'terminal', 'jest'];
 
-export const currentLearnign = ['ai', 'typescript', 'node','mongodb', 'docker'];
-
-
-export const secondaryTechnologies = ['html', 'css', 'tailwind', 'php', 'qt'];
+export const currentLearnign = ['ai', 'typescript', 'node', 'angular', 'mongodb', 'docker'];

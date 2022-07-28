@@ -2,7 +2,7 @@ import { GridProjects } from '../components';
 
 export const ProjectsSection = () => {
   return (
-    <section className='bg-slate-300' id="projects">
+    <section className='bg-slate-400' id="projects">
       <div className='py-5 bg-neutral-900 text-center'>
         <h1 className=" text-2xl font-extrabold tracking-tight md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-700">Most Representative Projects</h1>
       </div>
