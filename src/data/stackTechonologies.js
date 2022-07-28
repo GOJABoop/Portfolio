@@ -1,8 +1,9 @@
 
-export const mainTechnologies = ['javascript', 'typescript', 'java', 'python', 'cpp', 'react', 'angular', 'mysql', 'postgresql'];
+export const mainTechnologies = ['javascript', 'java', 'python', 'cpp', 'react', 'laravel', 'mysql', 'postgresql'];
 
-//export const currentLearnign = ['vue', 'spring', 'mongodb', 'docker', 'kubernetes'];
+export const tools = ['git', 'github', 'jira',  'slack', 'terminal', 'jest'];
 
-export const tools = ['git', 'github', 'node', 'jira',  'slack', 'terminal', 'jest', 'linux', 'figma'];
+export const currentLearnign = ['ai', 'typescript', 'node','mongodb', 'docker'];
 
-export const secondaryTechnologies = ['html', 'css', 'tailwind', 'laravel', 'php', 'qt'];
+
+export const secondaryTechnologies = ['html', 'css', 'tailwind', 'php', 'qt'];

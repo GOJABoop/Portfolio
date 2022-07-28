@@ -4,3 +4,4 @@ export * from './ProjectsSection';
 export * from './TechnologiesSection'; 
 export * from './ContactSection';
 export * from './Footer';
+export * from './Main';

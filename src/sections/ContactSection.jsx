@@ -2,7 +2,7 @@
 export const ContactSection = () => {
   return (
 
-    <section className="  bg-slate-900">
+    <section className="bg-slate-900" id="contact">
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div className=" mr-auto place-self-center lg:col-span-7">
                 <h1 className="max-w-2xl mb-4 text-4xl text-slate-200 font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">Hey! Contact me</h1>
@@ -34,20 +34,6 @@ export const ContactSection = () => {
                     </div>
                 </div>
             </div>                   
-            <div className="mt-4 lg:mt-0 lg:col-span-5 lg:flex bg-slate-800 rounded rounded-xl">
-                <form className='mt-4 mx-4 text-slate-100'>
-                    <div className="mb-6">
-                        <label htmlFor="email" className="block mb-2 text-sm font-medium">Your email</label>
-                        <input type="email" id="email" className="bg-slate-600 border border-gray-600  text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@mail.com" required/>
-                    </div>
-                    <div className="mb-6">
-                        <label htmlFor="password" className="block mb-2 text-sm font-medium">Your message</label>
-                        <input type="password" id="password" className="w-full bg-slate-600 py-8 border border-gray-600 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required/>
-                    </div>
-                    <button type="submit" className="bg-gradient-to-r from-purple-600 to-blue-800 inline-flex items-center justify-center px-7 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300">Submit</button>
-                </form>
-                
-            </div> 
         </div>
         
     </section>
