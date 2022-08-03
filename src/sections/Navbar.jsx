@@ -38,9 +38,9 @@ export const Navbar = () => {
                         Contact
                     </a>
                 </div>
-                <div>
+                {/* <div>
                     <button href="#" className="bg-gradient-to-r from-purple-500 to-blue-500 rounded-md inline-block text-sm px-3 py-2 leading-none border rounded border-black hover:border-transparent hover:text-slate-300 mt-4 lg:mt-0">Download CV</button>
-                </div>
+                </div> */}
             </div>
         </nav>
     )

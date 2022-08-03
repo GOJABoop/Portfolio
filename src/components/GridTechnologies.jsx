@@ -1,5 +1,3 @@
-import { Card } from './Card'
-
 export const GridTechnologies = ( { stack = [], length, mx }) => {
     return (
         <div className={`mx-2 py-4 text-center lg:mx-${mx}  border border-slate-400 rounded-xl`}>

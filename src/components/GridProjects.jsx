@@ -5,31 +5,10 @@ export const GridProjects = () => {
     <div className='container mx-auto mt-1 pb-12 text-center'>
         <div className="grid grid-cols-1 sm:grid-cols-2 sm:mx-4 lg:grid-cols-3 gap-5 lg:mx-0">
             <Card 
-              key={1} 
-              name={'BookStore'} 
-              description={'React JS, TypesScript, Jest'} 
-              linkRepo={'https://github.com/GOJAx64/bookstore'} 
-              img={'/assets/images/books.png'}
-            />
-            <Card 
-              key={2} 
-              name={'Point of sale'} 
-              description={'Angular, Spring boot'} 
-              linkRepo={'https://github.com/GOJAx64/Point-of-sale'} 
-              img={'/assets/images/point-of-sale.png'}
-            />
-            <Card 
-              key={3} 
-              name={'Pokedex'} 
-              description={'React JS, API Rest, Jest'} 
-              linkRepo={'https://github.com/GOJAx64/Pokedex'} 
-              img={'/assets/images/pokeball.png'}
-            />
-            <Card 
               key={4} 
               name={'Graph Algorithms'} 
               description={'C#, Math, Image Manipulation'} 
-              linkRepo={'https://github.com/GOJAx64/Graph-Algorithms'} 
+              linkRepo={'https://github.com/GOJAx64/Prim-Kruskal-Dijkstra'} 
               img={'/assets/images/neural.png'}
             />
             <Card 
@@ -62,10 +41,31 @@ export const GridProjects = () => {
             />
             <Card 
               key={9} 
-              name={'Multilayer Perceptron'} 
+              name={'Perceptron'} 
               description={'Python, Machine Learning'} 
-              linkRepo={'https://github.com/GOJAx64/Point-of-sale'} 
+              linkRepo={'https://github.com/GOJAx64/Perceptron'} 
               img={'/assets/images/deep-learning.png'}
+            />
+            <Card 
+              key={1} 
+              name={'BookStore'} 
+              description={'React JS, TypesScript, Jest'} 
+              linkRepo={'https://github.com/GOJAx64/bookstore'} 
+              img={'/assets/images/books.png'}
+            />
+            <Card 
+              key={2} 
+              name={'Point of sale'} 
+              description={'React JS, Nest, TypesScript'} 
+              linkRepo={'https://github.com/GOJAx64/Point-of-sale'} 
+              img={'/assets/images/point-of-sale.png'}
+            />
+            <Card 
+              key={3} 
+              name={'Pokedex'} 
+              description={'React JS, API Rest, Jest'} 
+              linkRepo={'https://github.com/GOJAx64/Pokedex'} 
+              img={'/assets/images/pokeball.png'}
             />
         </div>
     </div>
